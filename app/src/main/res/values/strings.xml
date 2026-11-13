@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">JARVIS</string>
+    <string name="notification_listener_label">JARVIS notification access</string>
+    <string name="assistant_service_label">JARVIS voice assistant</string>
+
+    <string name="mode_gemini">Gemini voice</string>
+    <string name="mode_local">Local privacy</string>
+
+    <string name="home_title">JARVIS</string>
+    <string name="home_subtitle">Your device, under your control</string>
+    <string name="state_idle">Tap the mic to start</string>
+    <string name="state_connecting">Connecting to Gemini Live…</string>
+    <string name="state_listening">Listening</string>
+    <string name="state_processing">Working on it</string>
+    <string name="state_speaking">Speaking — tap to interrupt</string>
+    <string name="state_error">Something went wrong</string>
+    <string name="action_stop">Stop listening</string>
+    <string name="action_send">Send command</string>
+    <string name="command_hint">Type a command…</string>
+
+    <string name="privacy_consent_title">Before Gemini voice mode</string>
+    <string name="privacy_consent_body">Gemini Live is a cloud service. When you start a voice session, your microphone audio is streamed to Google’s servers to be processed and JARVIS plays back the generated speech.
+
+JARVIS never attaches your files, photos, messages, notifications, contacts, clipboard or location to that stream, and it never records or uploads audio outside a session you started. Local Privacy mode never contacts Google at all.</string>
+    <string name="privacy_consent_accept">I understand, enable Gemini voice</string>
+    <string name="privacy_consent_decline">Stay in Local Privacy mode</string>
+</resources>

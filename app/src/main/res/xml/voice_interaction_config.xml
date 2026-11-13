@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Supplied by JARVIS to the system when it holds ROLE_ASSISTANT. The system
+     reads these values from the VoiceInteractionService; no capability is implied
+     beyond what the app actually implements. -->
+<voice-interaction-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:sessionService="com.jarvis.assistant.assistant.JarvisVoiceInteractionSessionService"
+    android:recognitionService="com.jarvis.assistant.assistant.JarvisVoiceInteractionService"
+    android:supportsAssist="true"
+    android:supportsLaunchVoiceAssistFromKeyguard="false"
+    android:supportsLocalInteraction="true" />

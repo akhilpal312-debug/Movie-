@@ -1,0 +1,27 @@
+# Android / Gradle
+local.properties
+.gradle/
+build/
+app/build/
+*.iml
+.idea/
+captures/
+*.hprof
+*.class
+
+# Signing material must never be committed
+*.jks
+*.keystore
+keystore.properties
+signing.properties
+
+# Backend
+backend/node_modules/
+backend/dist/
+backend/.env
+backend/.env.*
+!backend/.env.example
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
